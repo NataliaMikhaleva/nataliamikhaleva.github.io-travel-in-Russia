@@ -1,0 +1,32 @@
+.comment__author {
+    margin: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+@media screen and (min-width: 320px) {
+    .comment__author {
+        margin-top: 17px;
+        margin-bottom: 24px;
+        
+        
+        
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .comment__author {
+        text-align: left;
+        font-size: 14px;
+        line-height: 24px;
+        order: 1;
+        margin-bottom: 0;
+        
+        
+    }
+}

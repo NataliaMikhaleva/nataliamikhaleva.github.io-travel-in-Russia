@@ -1,0 +1,27 @@
+.header__lang {
+    display: grid;
+    grid-column-gap: 18px;
+    grid-template-columns: repeat(2, 1fr);
+    list-style-type: none;
+    align-items: flex-end;
+}
+
+
+
+@media screen and (min-width: 320px)  {
+    .header__lang {
+        grid-column-gap: 16px;
+           
+    }
+}
+
+
+/*для 1024 то же самое, можно не делать*/
+@media screen and (min-width: 768px)  {
+    .header__lang {
+        grid-column-gap: 18px;
+        
+        
+    }
+}
+

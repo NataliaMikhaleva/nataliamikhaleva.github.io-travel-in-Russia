@@ -1,0 +1,59 @@
+
+@import url("../../blocks/page/__intro/page__intro.css");
+@import url("../../blocks/page/__lead/page__lead.css");
+@import url("../../blocks/page/__photo-grid/page__photo-grid.css");
+@import url("../../blocks/page/__places/page__places.css");
+@import url("../../blocks/page/__video/page__video.css");
+@import url("../../blocks/page/__additional/page__additional.css");
+@import url("../../blocks/page/__comments/page__comments.css");
+@import url("../../blocks/page/__cover/page__cover.css");
+@import url("../../blocks/page/__footer/page__footer.css");
+
+
+
+
+
+
+
+.page {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: #2A2C2F;
+   
+}
+
+
+
+
+@media screen and (min-width: 320px) {
+    .page {
+        max-width: 424px;
+       
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .page {
+        max-width: 1024px;
+       
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .page {
+        max-width: 1279px;
+       
+    }
+}
+
+@media screen and (min-width: 1280px) and(max-width: 1440px) {
+    .page {
+        max-width: 1440px;
+       
+    }
+}
+
+

@@ -1,0 +1,29 @@
+.video__content-subtitle {
+    margin: auto;
+    margin-top: 48px;
+    margin-bottom: 72px;
+    
+}
+
+
+@media screen and (min-width: 320px) {
+    .video__content-subtitle { 
+       margin-top: 1rem;
+       margin-bottom: 24px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .video__content-subtitle { 
+       margin-top: 24px;
+       margin-bottom: 56px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .video__content-subtitle {
+       margin-top: 48px;
+       margin-bottom: 73px;
+    }
+}
+

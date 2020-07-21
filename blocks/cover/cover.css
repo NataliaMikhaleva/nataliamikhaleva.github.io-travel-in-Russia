@@ -1,0 +1,56 @@
+
+@import url("../../blocks/cover/__link/cover__link.css");
+@import url("../../blocks/cover/__subtitle/cover__subtitle.css");
+@import url("../../blocks/cover/__title/cover__title.css");
+
+
+
+.cover {
+    position: relative;
+    max-width: 1184px;
+    background-color: #2A2C2F;
+    background-size: cover;
+    z-index: 1; 
+    
+}
+
+.cover:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-size: cover;
+    background-image: url("../../images/cover.jpg");
+    opacity: 0.5;
+    z-index: -1; 
+
+}
+
+.cover:hover:before{
+    opacity: 0.2;
+
+}
+@media screen and (min-width: 320px) {
+    .cover {
+        max-width: 100%;
+         
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cover {
+        max-width: 100%;
+         
+    }
+}
+
+@media screen and (min-width: 1280px)  {
+    .cover {
+        max-width: 1184px;
+         
+    }
+}
+

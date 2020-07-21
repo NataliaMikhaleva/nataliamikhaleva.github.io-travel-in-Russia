@@ -1,0 +1,52 @@
+
+@import url("../../blocks/intro/__title/intro__title.css");
+@import url("../../blocks/intro/__content-row/intro__content-row.css");
+@import url("../../blocks/intro/__facts/intro__facts.css");
+@import url("../../blocks/intro/__facts/intro__facts.css");
+@import url("../../blocks/intro/__fact/intro__fact.css");
+
+
+
+.intro {
+    font-family: 'Inter', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 984px;
+    min-width: 288px;
+   
+}
+
+
+@media screen and (min-width: 320px) {
+    .intro {
+       max-width: calc(100% - 2rem);
+              
+        
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .intro {
+        max-width: calc(100% - 3rem);
+       
+        
+        
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro {
+        max-width: calc(100% - 6rem);
+   
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .intro {
+        max-width: calc(100% - 18.38rem); 
+    }     
+}
+
+

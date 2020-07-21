@@ -1,0 +1,22 @@
+.page__intro {
+    margin: auto;
+    margin-top: 80px;
+    
+}
+
+
+ @media screen and (min-width: 375px)  {
+    .page__intro {
+        margin: auto;
+        margin-top: 64px;
+    }
+} 
+
+/*аналогично для остальных разрешений*/
+@media screen and (min-width: 768px)  {
+    .page__intro {
+        margin: auto;
+        margin-top: 80px;
+    }
+}
+

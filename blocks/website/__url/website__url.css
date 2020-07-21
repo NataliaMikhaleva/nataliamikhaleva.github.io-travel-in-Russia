@@ -1,0 +1,14 @@
+.website__url {
+    max-width: 282px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #FFFFFF; 
+}
+
+.website__url:hover {
+    opacity: 0.7;
+}
